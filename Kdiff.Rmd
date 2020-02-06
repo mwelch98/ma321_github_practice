@@ -1,0 +1,14 @@
+---
+title: "Another Demo"
+output: html_notebook
+---
+
+```{r}
+library(mosaic)
+```
+
+```{r}
+Kdiff= astros_Ks$`SO% 16`- astros_Ks$`SO% 17`
+astros_Ks=cbind(astros_Ks, Kdiff)
+dotplot(astros_Ks$Tm~ astros_Ks$Kdiff,)
+```
