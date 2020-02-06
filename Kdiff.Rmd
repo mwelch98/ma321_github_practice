@@ -19,9 +19,8 @@ b = 3
 
 a+b
 ```
-
-
 ```{r}
-a * b
+mean(astros_Ks$Kdiff)
+mean(astros_Ks$`SO% 17`)
 ```
 
