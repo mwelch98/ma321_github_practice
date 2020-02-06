@@ -12,3 +12,11 @@ Kdiff= astros_Ks$`SO% 16`- astros_Ks$`SO% 17`
 astros_Ks=cbind(astros_Ks, Kdiff)
 dotplot(astros_Ks$Tm~ astros_Ks$Kdiff,)
 ```
+
+```{r}
+a = 2
+b = 3
+
+a+b
+```
+
